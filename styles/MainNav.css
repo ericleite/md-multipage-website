@@ -1,0 +1,22 @@
+.MainNav {
+  position: fixed;
+  top: 2.5em;
+  left: 2.5em;
+  width: 270px;
+  z-index: 10;
+}
+
+.MainNav ul {
+  margin: 0 0 1em;
+  padding: 0 0 0 1em;
+  list-style: none;
+  border-left: 1px solid #FE787C;
+}
+
+.MainNav a {
+  transition: all 150ms ease;
+}
+
+.MainNav a.active {
+  color: 1px solid #FE787C;
+}
