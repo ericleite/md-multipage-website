@@ -1,0 +1,8 @@
+.Content {
+  width: 640px;
+  flex: 0 0 640px;
+}
+
+.Content-quote {
+  margin-top: 3em;
+}

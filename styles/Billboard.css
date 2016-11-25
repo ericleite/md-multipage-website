@@ -1,18 +1,30 @@
 .Billboard {
   position: relative;
-  padding: 5em;
-  width: 640px;
-  line-height: 1;
+  width: 100%;
+  margin-bottom: 3em;
+  padding: 3em;
+  color: #151c24;
   text-align: center;
 }
 
-.Billboard.-white {
-  color: #151c24;
+.Billboard.-header {
+  padding: 5em;
+  line-height: 1;
+  color: #fff;
 }
 
 .Billboard > * {
   position: relative;
   z-index: 3;
+}
+
+.Billboard a:not(.Button) {
+  color: #47BECF;
+  transition: all 150ms ease;
+}
+
+.Billboard a:not(.Button):hover {
+  color: #FE787C;
 }
 
 .Billboard-border, .Billboard-accent {
@@ -22,19 +34,19 @@
   width: 100%;
   height: 100%;
   border: 1px solid #fff;
-  background-color: rgba(21,28,36,1);
+  background-color: #fff;
   z-index: 2;
 }
 
-.Billboard.-white .Billboard-border {
-  background-color: white;
+.Billboard.-header .Billboard-border {
+  background-color: rgba(21, 28, 36, 1);
 }
 
 .Billboard-accent {
   top: 1em;
   left: 1em;
   z-index: 1;
-  background-color: rgba(21,28,36,0.5);
+  background-color: rgba(21, 28, 36, 0.5);
 }
 
 .Billboard-title {

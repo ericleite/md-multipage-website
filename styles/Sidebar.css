@@ -1,0 +1,6 @@
+.Sidebar {
+  width: 270px;
+  flex: 0 0 270px;
+  margin-right: 2.5em;
+  z-index: 10;
+}

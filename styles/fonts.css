@@ -4,7 +4,14 @@
        url('../assets/fonts/officecodeprod-light-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+}
 
+@font-face {
+  font-family: 'office_code_pro_dlight';
+  src: url('../assets/fonts/officecodeprod-medium-webfont.woff2') format('woff2'),
+       url('../assets/fonts/officecodeprod-medium-webfont.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
 }
 
 @font-face {
@@ -13,7 +20,6 @@
        url('../assets/fonts/officecodeprod-medium-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-
 }
 
 @font-face {
@@ -22,5 +28,4 @@
        url('../assets/fonts/reglo.bold-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-
 }

@@ -1,11 +1,3 @@
-.MainNav {
-  position: fixed;
-  top: 2.5em;
-  left: 2.5em;
-  width: 270px;
-  z-index: 10;
-}
-
 .MainNav ul {
   margin: 0 0 1em;
   padding: 0 0 0 1em;
@@ -18,5 +10,6 @@
 }
 
 .MainNav a.active {
+  font-weight: 700;
   color: #FE787C;
 }

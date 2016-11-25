@@ -1,0 +1,13 @@
+.Showcase {
+  text-align: left;
+}
+
+.Showcase iframe {
+  width: 100%;
+  height: 480px;
+}
+
+.Showcase-actions {
+  margin-top: 3em;
+  text-align: center;
+}
