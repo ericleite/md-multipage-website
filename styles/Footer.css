@@ -1,8 +1,9 @@
 .Footer {
-  position: fixed;
+  position: absolute;
+  left: 0;
   bottom: 2.5em;
-  left: 50%;
-  transform: translateX(-50%);
+  width: 100%;
+  z-index: 10;
 }
 
 .Footer-quote {

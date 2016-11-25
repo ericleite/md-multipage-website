@@ -1,7 +1,13 @@
 .Billboard {
   position: relative;
-  padding: 3em;
+  padding: 5em;
+  width: 640px;
   line-height: 1;
+  text-align: center;
+}
+
+.Billboard.-white {
+  color: #151c24;
 }
 
 .Billboard > * {
@@ -16,21 +22,25 @@
   width: 100%;
   height: 100%;
   border: 1px solid #fff;
-  background-color: #151c24;
+  background-color: rgba(21,28,36,1);
   z-index: 2;
+}
+
+.Billboard.-white .Billboard-border {
+  background-color: white;
 }
 
 .Billboard-accent {
   top: 1em;
   left: 1em;
   z-index: 1;
+  background-color: rgba(21,28,36,0.5);
 }
 
 .Billboard-title {
   font-family: 'regloregular', serif;
   font-size: 5em;
   letter-spacing: 0.5rem;
-  text-align: center;
   text-transform: uppercase;
 }
 
@@ -38,9 +48,4 @@
   margin-top: 1em;
   color: #47BECF;
   font-size: 2em;
-  text-align: center;
-}
-
-.Billboard-subtitle > span {
-  display: inline-block;
 }
