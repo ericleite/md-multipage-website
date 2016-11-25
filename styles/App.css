@@ -68,6 +68,22 @@ iframe {
   border: 0;
 }
 
+blockquote {
+  margin: 0;
+  font-size: 1em;
+  font-weight: 700;
+  text-align: left;
+}
+
+blockquote cite {
+  display: block;
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: normal;
+  text-align: right;
+}
+
 .clearfix:after {
   content: ' ';
   display: block;
