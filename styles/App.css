@@ -19,8 +19,34 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'regloregular', serif;
   margin-top: 0;
+  margin-bottom: 1em;
+  font-family: 'regloregular', serif;
+  line-height: 1;
+}
+
+h1, .h1 {
+  font-size: 7.594em;
+}
+
+h2, .h2 {
+  font-size: 5.063em;
+}
+
+h3, .h3 {
+  font-size: 3.375em;
+}
+
+h4, .h4 {
+  font-size: 2.25em;
+}
+
+h5, .h5 {
+  font-size: 1.5em;
+}
+
+h6, .h6 {
+  font-size: 1em;
 }
 
 img {
