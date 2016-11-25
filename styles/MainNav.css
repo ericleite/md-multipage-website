@@ -1,3 +1,8 @@
+.MainNav {
+  position: fixed;
+  top: 2.5em;
+}
+
 .MainNav ul {
   margin: 0 0 1em;
   padding: 0 0 0 1em;

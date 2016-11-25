@@ -1,6 +1,6 @@
 .Content {
-  width: 640px;
   flex: 0 0 640px;
+  max-width: 640px;
 }
 
 .Content-quote {
